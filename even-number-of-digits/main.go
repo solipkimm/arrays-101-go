@@ -14,6 +14,9 @@ func main() {
 
 }
 
+/* Solution */
+
+// The 1st try
 func findNumbers(nums []int) int {
 	cnt := 0
 	for _, num := range nums {
@@ -30,6 +33,7 @@ func findNumbers(nums []int) int {
 	return cnt
 }
 
+// The 2nd try
 func findNumbers2(nums []int) int {
 	cnt := 0
 	for _, num := range nums {
