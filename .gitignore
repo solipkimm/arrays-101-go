@@ -1,6 +1,6 @@
 # Ignore all
 *
-# Unignore all with extensions
-!*.*
-# Unignore all `.md`
+# Unignore all `.md` `.go` `.mod`
 !*.md
+!*.go
+!*.mod
