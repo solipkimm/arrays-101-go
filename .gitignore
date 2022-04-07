@@ -1,6 +1,9 @@
-# Ignore all
-*
-# Unignore all `.md` `.go` `.mod`
-!*.md
-!*.go
-!*.mod
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
